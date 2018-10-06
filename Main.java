@@ -3,14 +3,13 @@ import java.util.Scanner;
 class Main 
 {
   public static void main(String[]args){
-  int num;
-  Scanner sc=new Scanner(System.in);
-   System.out.println("enter the number");
+  int s;
+  Scanner sc=new Scanner(System.in)
    num=sc.nextInt();
    if(num>0)
-   System.out.println(num +" is positive");
+   System.out.println(s +"  positive");
    else if(num<0)
-   System.out.println(num +" is negative");
+   System.out.println(s+"  negative");
    else
    System.out.println("it is zero");
 }

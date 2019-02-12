@@ -1,27 +1,32 @@
-// Welcome to SpiderLabWeb
 import java.util.*;
-
+import java.util.Scanner;
 class Main {
-  
   public static void main(String[] args) {
-int a,b,c;
-Scanner s =new Scanner(System.in);
-System.out.println("enter the value of a:");
-a=s.nextInt();
-System.out.println("enter the svalue of b:");
-b=s.nextInt();
-System.out.println("enter the value of c:");
-c=s.nextInt();
-  if(a<b && b<c)
+    int p,q,r;
+    Scanner nr=new Scanner(System.in);
+    System.out.println("enter the  value of p:");
+    p=nr.nextInt();
+    System.out.println("enter the  value of q:");
+   q=nr.nextInt();
+    System.out.println("enter the  value of r:");
+    r=nr.nextInt();
 
-  System.out.println("a large");
-else if(a<b && a>c)
+    if(p>q && q<r)
+    {
+      System.out.println("p is large");
+       }
+  else if(p<q && q>r)
+  {
 
-System.out.println("bis large");
-
- else if(a>b && a<c) 
+  System.out.println("q is large");
+  }
+   else if(p<r && p>q )
   
- System.out.println( "c is large");
-  
-  
+  {
+    System.out.println("r is large");
+  }
+  else 
+  {
+     System.out.println("not distinct numbers");
+  }
 } }
